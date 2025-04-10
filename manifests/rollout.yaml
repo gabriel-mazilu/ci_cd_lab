@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/gabriel-mazilu/ci_cd_lab:latest
+          image: ghcr.io/gabriel-mazilu/ci_cd_lab@sha:234234
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
